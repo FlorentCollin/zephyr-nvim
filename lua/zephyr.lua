@@ -17,7 +17,7 @@ local zephyr = {
   bg1 = '#504945';
   bg_popup = '#3E4556';
   bg_highlight  = '#2E323C';
-  bg_visual = '#b3deef';
+  bg_visual = '#425762';
 
   fg = '#bbc2cf';
   fg_alt  = '#5B6268';
@@ -26,7 +26,7 @@ local zephyr = {
   magenta = '#d16d9e';
   orange = '#da8548';
   yellow = '#d8a657';
-  -- green = '#98be65';
+   --green = '#98be65';
   green = '#5faf5f';
   cyan = '#56b6c2';
   blue = '#51afef';
@@ -119,7 +119,7 @@ function zephyr.load_syntax()
     SpellCap = {fg=zephyr.blue,bg=zephyr.none,style='undercurl'};
     SpellLocal = {fg=zephyr.cyan,bg=zephyr.none,style='undercurl'};
     SpellRare = {fg=zephyr.purple,bg=zephyr.none,style = 'undercurl'};
-    Visual = {fg=zephyr.black,bg=zephyr.bg_visual};
+    Visual = {fg=zephyr.none,bg=zephyr.bg_visual};
     VisualNOS = {fg=zephyr.black,bg=zephyr.bg_visual};
     QuickFixLine = {fg=zephyr.purple,style='bold'};
     Debug = {fg=zephyr.orange};
